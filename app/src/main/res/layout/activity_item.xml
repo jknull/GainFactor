@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/blur_background"
+    android:orientation="vertical" >
+
+
+    <TextView android:text="Food" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/TextViewFoodName" />
+
+    <TextView android:text="Gain Factor:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+
+
+    <TextView android:text="Results1" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/TextViewGainFactor" />
+
+    <TextView android:text="Placeholder" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/EditTextDesrip1" />
+
+    <TextView android:text="Gain Value:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+
+
+
+    <TextView android:text="Results2" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:phoneNumber="false"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/TextViewGainValue" />
+
+    <TextView android:text="Placeholder" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/EditTextDesrip2" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove from Favourites"
+        android:id="@+id/buttonAddFav"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:onClick="removeItem"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

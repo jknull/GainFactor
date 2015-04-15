@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/blur_background"
+    android:orientation="vertical" >
+
+    <TextView android:text="Gain Factor:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+
+
+    <TextView android:text="Results1" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textSize="50dp"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/EditTextGainFactor" />
+
+    <TextView android:text="Placeholder" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/EditTextDesrip1" />
+
+    <TextView android:text="Gain Value:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+
+
+
+    <TextView android:text="Results2" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:phoneNumber="false"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/EditTextGainValue" />
+
+    <TextView android:text="Placeholder" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/EditTextDesrip2" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/editTextItemName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BBBBBB"
+        android:hint="Enter Item Name"
+        android:imeOptions="actionDone"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Favourites"
+        android:id="@+id/buttonAddFav"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:onClick="addFavourite"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

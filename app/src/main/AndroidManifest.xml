@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.gainfactor2.www.gainfactor2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GainCalcActivity"
+            android:label="@string/title_activity_gain_calc"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.gainfactor2.www.gainfactor2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GainFactorDisplay"
+            android:label="@string/title_activity_gain_factor_display"
+            android:parentActivityName=".GainCalcActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.gainfactor2.www.gainfactor2.GainCalcActivity" />
+        </activity>
+        <activity
+            android:name=".DatabaseActivity"
+            android:label="@string/title_activity_database"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.gainfactor2.www.gainfactor2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ItemActivity"
+            android:label="@string/title_activity_item"
+            android:parentActivityName=".DatabaseActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.gainfactor2.www.gainfactor2.DatabaseActivity" />
+        </activity>
+        <activity
+            android:name=".WizardActivity"
+            android:label="@string/title_activity_wizard"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.gainfactor2.www.gainfactor2.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

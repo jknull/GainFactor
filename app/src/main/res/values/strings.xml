@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Gain Factor</string>
+
+    <!-- Main Activity Strings -->
+    <string name="gain_button">Get Started</string>
+    <string name="favourites">Favourites</string>
+    <string name="tutorial">Tutorial</string>
+
+    <!-- Tutorial Activity Strings -->
+    <string name="tutorial_paragraph_1">\'Gain Factor\' is a metric that helps you examine and compare the inherent body-building qualities of foods.</string>
+    <string name="tutorial_paragraph_2">Unlike nutritional labels, the Gain Factor allows direct numerical comparisons irrespective of serving sizes.</string>
+    <string name="tutorial_paragraph_3">To assess the Gain Factor of a given food, you will need to record the calories, serving size and protein quantity.</string>
+    <string name="tutorial_paragraph_4">Additionally, if you know the cost of the product and the total quantity, the \'Gain Value\' metric gives you a direct measure to compare the value of diverse food in regards to cost and energy density.</string>
+    <string name="tutorial_paragraph_5">Ultimately, we provide you with the ability to maximize your energy intake, whether that\'s through high energy-dense food, or through the strategic purchasing of high value foods.</string>
+
+    <!-- Action bar strings -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Activity titles -->
+    <string name="title_activity_gain_calc">Gain Factor</string>
+    <string name="title_activity_gain_factor_display">Gain Factor</string>
+    <string name="title_activity_database">Gain Factor Favourites</string>
+    <string name="title_activity_item">Gain Factor</string>
+    <string name="title_activity_wizard">About Gain Factor</string>
+
+    <!-- Misc. Strings -->
+    <string name="placeholder">Placeholder</string>
+</resources>

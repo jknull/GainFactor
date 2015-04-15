@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="me.gainfactor2.www.gainfactor2.GainCalcActivity"
+    android:background="@drawable/blur_background">
+
+        <!-- Should add labels and maybe instructions -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1"
+            android:text="Enter serving information:"
+            android:textColor="#FFFFFF"
+            android:editable="false"
+            android:textStyle="bold|italic"
+            android:inputType="none" />
+
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextCalories"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+        android:hint="Calories per Serving (Cal)"
+            android:imeOptions="actionDone"
+            android:layout_gravity="center_horizontal"/>
+
+            <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editTextServing"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#FFFFFF"
+                android:textColorHint="#BBBBBB"
+            android:hint="Serving Size (g/mL)"
+                android:imeOptions="actionDone"
+                android:layout_gravity="center_horizontal"/>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/editTextProtein"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+            android:hint="Amount of Protein (g)"
+            android:imeOptions="actionDone"
+            android:layout_gravity="center_horizontal"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:text="Enter product price and quantity (optional):"
+            android:editable="false"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|italic"
+            android:inputType="none" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/editTextPrice"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+            android:hint="Item Price ($)"
+            android:imeOptions="actionDone"
+            android:layout_gravity="center_horizontal"
+            android:inputType="numberDecimal" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editTextQuantity"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#BBBBBB"
+                android:imeOptions="actionDone"
+                android:hint="Product Quantity (g/mL)"
+                android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proceed"
+            android:id="@+id/button"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:onClick="calculateGains"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</RelativeLayout>
