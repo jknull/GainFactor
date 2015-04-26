@@ -17,6 +17,9 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Random;
 
+// Logging
+import android.util.Log;
+
 
 public class MainActivity extends ActionBarActivity {
     // Member variables

@@ -55,6 +55,7 @@
     <TextView android:text="@string/tutorial_paragraph_5"
         android:layout_marginTop="5dp"
         android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
         android:textSize="14sp"
         android:layout_height="wrap_content"
         android:textStyle="bold"/>

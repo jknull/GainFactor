@@ -3,6 +3,7 @@ package me.gainfactor2.www.gainfactor2;
 import android.content.Context;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -58,7 +59,9 @@ public class WizardActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wizard);
+        Log.w("myApp", "Before setContentView"); // Testing
+        setContentView(R.layout.activity_wizard); // ERROR
+        Log.w("myApp", "After setContentView"); // Testing
     }
 
 
