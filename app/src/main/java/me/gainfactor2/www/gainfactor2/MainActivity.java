@@ -26,7 +26,7 @@ public class MainActivity extends ActionBarActivity {
    private static final String[] GAIN_QUOTES = {"Do you even lift, Bruh?", "Reps for Jesus", "Where's the beach?",
             "Oh, I didn't see you there.", "Beefcake!!!!", "Nobody makes me bleed my own blood!",
             "Get to the choppa!!", "Gainz brah!", "Bi's for the guys.", "Curls for the girls.",
-            "Dost thou even hoist?", "Don't skip leg day. Don't skip any day.", "Where have you been all my life?",
+            "Dost thou even hoist?", "Where have you been all my life?", "No pecs, no sex",
             "BRO, LOOK HOW FKIN SWOOL YOUR NECK IS", "Treat yourself to a selfie.", "Come at me, bro.", "Get oiled!",
             "Live swole or die mirin'.", "Traps for the chaps.", "Be the swole you want to see in the world.",
             "That's one small rep for man, and one giant gain for man's thighs.", "Let he who is without swole do the first set.",
